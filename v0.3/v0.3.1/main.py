@@ -379,7 +379,7 @@ def msgTypeCheck(msg):
 			
 		if available_points != None:
 			my_possible_location = available_points
-		
+		cnt = 0
 	
 	elif msg["type"] == MsgType.NOPOINT:
 		fm_flag = False
